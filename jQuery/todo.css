@@ -1,0 +1,88 @@
+.container{
+    max-width: 700px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.inputContainer{
+        padding-bottom: 20px;
+        margin: auto;
+    }
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+#newTodo{
+    width: 80%;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    border: 1px solid #6bc36b;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+#addItem{
+    border: none;
+    background: #6bc36b;
+    color: white;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+#todos{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+
+}
+
+#todos .todoText{
+    font-size: 18px;
+}
+
+#todos li{
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
+#todos li:nth-child(2n){
+    background: #eee;
+}
+
+#todos .deleteItem{
+    padding: 5px 20px;
+    float: right;
+    color: #6bc36b;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+#todos .completeItem{
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#todos .editText{
+    display: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    line-height: 22px;
+    font-size: 18px;
+}
+#todos .saveItem{
+    display: none;
+    border: none;
+    border-radius: 5px;
+    background:#6bc36b;
+    color: white;
+    padding: 4px 7px;
+    margin-left: 10px;
+}
